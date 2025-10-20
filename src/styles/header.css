@@ -1,0 +1,88 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+
+#logo {
+  width: 70px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 100vw;
+  height: 100px;
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  font-family: 'BBH Sans Bogle', sans-serif;
+  margin: 0 20px;
+  font-size: 3.5vh;
+  transition: 0.3s;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'BBH Sans Bogle', sans-serif;
+  margin: 0 20px;
+  font-size: 3.5vh;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+
+.links a:hover::after {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;     
+  height: 50px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background-color: red;
+  color: white;               
+}
