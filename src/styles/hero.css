@@ -14,7 +14,7 @@
   height: 70vh;
   width: 100vw;
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)),
+    linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.671)),
     url('../images/background.jpg');
   background-size: cover;
   background-position: center;
