@@ -5,7 +5,6 @@ html, body, #root {
   height: 100%;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
 }
 
 
@@ -16,7 +15,7 @@ html, body, #root {
 #header {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(255, 255, 255, 0.89);
   width: 100vw;
   height: 100px;
 }
@@ -30,20 +29,10 @@ html, body, #root {
 
 .links a {
   text-decoration: none;
-  color: white;
-  margin: 0 5px;
+  color: black;
   font-family: 'BBH Sans Bogle', sans-serif;
   margin: 0 20px;
-  font-size: 3.5vh;
-  transition: 0.3s;
-}
-
-.links a {
-  text-decoration: none;
-  color: white;
-  font-family: 'BBH Sans Bogle', sans-serif;
-  margin: 0 20px;
-  font-size: 3.5vh;
+  font-size: 3.2vh;
   position: relative;
   transition: color 0.3s;
 }
@@ -74,10 +63,10 @@ html, body, #root {
   justify-content: center;
   width: 50px;     
   height: 50px;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   font-size: 24px;
-  color: white;
+  color: black;
   margin: 0 10px;
   transition: 0.3s;
 }

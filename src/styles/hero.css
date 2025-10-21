@@ -1,0 +1,39 @@
+.heroOffer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  width: 30vw;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)),
+    url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-family: 'Saira', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: red;
+  text-transform: uppercase;
+}
+
+

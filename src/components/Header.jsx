@@ -16,9 +16,9 @@ const Header = () => {
             <a href="/aulas">Aulas</a>
           </div>
           <div className='social'>
-            <a href="starfitsantacruz@gmail.com"><HiOutlineMail /></a>
-            <a href="https://www.instagram.com/academiastar_fit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /></a>
-            <a href="https://wa.me/5521960161919?text=Gostaria%20informa%C3%A7%C3%B5es%20sobre%20o%20financeiro."><FaWhatsapp /></a>
+            <a target='blank_' href="starfitsantacruz@gmail.com"><HiOutlineMail /></a>
+            <a target='blank_' href="https://www.instagram.com/academiastar_fit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /></a>
+            <a target='blank_' href="https://wa.me/5521960161919?text=Gostaria%20informa%C3%A7%C3%B5es%20sobre%20o%20financeiro."><FaWhatsapp /></a>
           </div>
         </nav>
       </header>
