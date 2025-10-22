@@ -83,3 +83,28 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
+
+.PlanosLabel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100vw;
+}
+
+.PlanosLabel img {
+  max-width: 100vw;
+}
+
+.PlanosLabel section {
+  box-shadow: rgb(117, 117, 117) 1px 1px 10px;
+  border-radius: 5px;
+  width: 30vw;
+  padding: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .PlanosLabel section {
+    display: none;
+  }
+}
