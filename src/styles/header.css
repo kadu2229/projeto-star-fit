@@ -95,8 +95,11 @@ body,
   .navBar {
     display: none;
   }
+  .headerContent > .social {
+    display: none;
+  }
 
-  .social {
+  .social a {
     display: none;
   }
 

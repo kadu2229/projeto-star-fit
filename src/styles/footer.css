@@ -1,0 +1,144 @@
+/* footer.css */
+.footer {
+  background-color: #fff; /* fundo branco */
+  color: #000; /* texto preto */
+  padding: 4rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 2px solid #e5e5e5;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Quem somos */
+.about {
+  flex: 1 1 300px;
+}
+
+.about h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.about p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Formulário */
+.footer-form {
+  flex: 1 1 300px;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.footer-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #cc0000;
+}
+
+/* Contato */
+.footer-contact {
+  flex: 1 1 200px;
+}
+
+.footer-contact h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.footer-contact p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; /* preto */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background-color: red; /* hover vermelho */
+  color: #fff;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about,
+  .footer-form,
+  .footer-contact {
+    flex: 1 1 100%;
+  }
+
+  .inputGroup {
+    flex-direction: column;
+  }
+}

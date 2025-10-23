@@ -1,0 +1,96 @@
+.carousel-wrapper {
+  width: 90%;
+  height: 70vh;        /* altura do carousel */
+  min-height: 300px;   /* mobile */
+  max-height: 600px;   /* desktop */
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem; /* separa dos cards */
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;               /* posição central do container */
+  transform: translateX(-50%); /* move metade da largura do caption para esquerda */
+  background: rgba(0,0,0,0.4);
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  text-align: center;      /* centraliza o texto dentro do caption */
+}
+
+
+/* Botões de navegação */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* Bullets */
+.dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    height: 40vh;
+  }
+  .caption {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  .prev, .next {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.6rem;
+  }
+}

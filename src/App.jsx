@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import AulasPage from './pages/AulasPage';
 import ContatoPage from './pages/ContatoPage';
 import PlanosPage from './pages/PlanosPage';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/contato' element={<ContatoPage />} />
         <Route path='/planos' element={<PlanosPage />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
