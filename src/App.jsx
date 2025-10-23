@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import AulasPage from './pages/AulasPage';
 import ContatoPage from './pages/ContatoPage';
 import PlanosPage from './pages/PlanosPage';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
