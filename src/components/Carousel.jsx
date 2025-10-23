@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import background from "../images/background.jpg";
 import background2 from "../images/background2.jpg";
 import background3 from "../images/background3.jpg";
-import "../styles/Carousel.css"; // importa os estilos
+import "../styles/carousel.css"; // importa os estilos
 
 const slides = [
   { id: 1, image: background, title: "Primeiro slide", text: "Bem-vindo à STAR FIT!" },
