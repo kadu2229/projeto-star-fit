@@ -14,7 +14,7 @@ const Cabecalio = () => {
       <header id="header">
         <div className="headerContent">
           <a href="/">
-            <img id="logo" src={logo} alt="LOGO" />
+            <img id="logo" src={logo}  alt="LOGO"/>
           </a>
           <nav className="navBar">
             <div className="links">

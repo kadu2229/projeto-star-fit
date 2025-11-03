@@ -92,7 +92,10 @@ body {
 
 /* Contato */
 .footer-contact {
-  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contact h4 {
@@ -108,7 +111,11 @@ body {
 
 .social {
   display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   gap: 1rem;
+  width: 100%;
 }
 
 .social a {
