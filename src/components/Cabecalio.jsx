@@ -1,11 +1,11 @@
 import logo from "../images/starFit.png";
+import "../styles/header.css";
 import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
-import "../styles/header.css";
 
 const Cabecalio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,12 +13,12 @@ const Cabecalio = () => {
     <div>
       <header id="header">
         <div className="headerContent">
-          <div className="headerPart">
+          <div className="contentL">
             <a href="/">
               <img id="logo" src={logo} alt="LOGO" />
             </a>
           </div>
-          <div className="headerPart">
+          <div className="content">
             <nav className="navBar">
               <div className="links">
                 <a href="/planos">Planos</a>
@@ -27,7 +27,7 @@ const Cabecalio = () => {
               </div>
             </nav>
           </div>
-          <div className="headerPart">
+          <div className="contentS">
             <div className="social">
               <a target="blank_" href="starfitsantacruz@gmail.com">
                 <HiOutlineMail />
