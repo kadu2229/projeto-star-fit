@@ -1,11 +1,11 @@
 import logo from "../images/starFit.png";
-import "../styles/header.css";
 import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
+import "../styles/header.css";
 
 const Cabecalio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,16 +13,21 @@ const Cabecalio = () => {
     <div>
       <header id="header">
         <div className="headerContent">
-          <a href="/">
-            <img id="logo" src={logo}  alt="LOGO"/>
-          </a>
-          <nav className="navBar">
-            <div className="links">
-              <a href="/planos">Planos</a>
-              <a href="/contato">Contato</a>
-              <a href="/aulas">Aulas</a>
-            </div>
-          </nav>
+          <div className="headerPart">
+            <a href="/">
+              <img id="logo" src={logo} alt="LOGO" />
+            </a>
+          </div>
+          <div className="headerPart">
+            <nav className="navBar">
+              <div className="links">
+                <a href="/planos">Planos</a>
+                <a href="/contato">Contato</a>
+                <a href="/aulas">Aulas</a>
+              </div>
+            </nav>
+          </div>
+          <div className="headerPart">
             <div className="social">
               <a target="blank_" href="starfitsantacruz@gmail.com">
                 <HiOutlineMail />
@@ -40,6 +45,7 @@ const Cabecalio = () => {
                 <FaWhatsapp />
               </a>
             </div>
+          </div>
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen === false ? <GiHamburgerMenu /> : <AiOutlineClose />}
           </button>
