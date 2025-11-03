@@ -13,10 +13,9 @@ const Planos = () => {
       {/* Carousel customizado */}
       <div className="PlanosLabel">
         <div className="carousel-wrapper">
-          <CarouselGym />
+          /*<CarouselGym />*/
         </div>
       </div>
-
       <section className="content">
         {/* Card 1 */}
         <div className="card">

@@ -46,7 +46,7 @@ export default function Footer() {
 
         {/* CONTATO */}
         <div className="footer-contact">
-          <p>Celular: (21) 96016-1919</p>
+          <p>Celular: (21) 99999-9999</p>
 
           <h4>Redes Sociais</h4>
           <div className="social">
