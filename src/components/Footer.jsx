@@ -7,17 +7,7 @@ export default function Footer() {
     <footer className="footer" id="mais">
       <div className="container">
         <div className="about">
-          <h1>Quem somos nós</h1>
-          <p>
-            A STAR FIT é uma academia comprometida com a saúde e bem-estar,
-            oferecendo infraestrutura de ponta, aulas coletivas, musculação e
-            suporte integral para todos os níveis. Nosso objetivo é transformar
-            seu treino em uma experiência completa, motivadora e eficiente.
-            Venha fazer parte da nossa comunidade!
-          </p>
           <div className="footer-contact">
-            <h2 className="title">ENTRE EM CONTATO</h2>
-            <p>Celular: (21) 99999-9999</p>
             <h4>Redes Sociais</h4>
             <div className="social">
               <a
@@ -46,6 +36,14 @@ export default function Footer() {
               </a>
             </div>
           </div>
+          <h1>Quem somos nós</h1>
+          <p>
+            A STAR FIT é uma academia comprometida com a saúde e bem-estar,
+            oferecendo infraestrutura de ponta, aulas coletivas, musculação e
+            suporte integral para todos os níveis. Nosso objetivo é transformar
+            seu treino em uma experiência completa, motivadora e eficiente.
+            Venha fazer parte da nossa comunidade!
+          </p>
         </div>
 
         {/* FORMULÁRIO */}

@@ -25,11 +25,9 @@ body {
 }
 
 .card {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: start;
   color: black;
   text-align: center;
   background-color: white;
