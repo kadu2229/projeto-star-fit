@@ -1,16 +1,99 @@
-# React + Vite
+🏋️‍♀️ Site de Academia — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um site institucional de uma academia, desenvolvido com React e Vite, com foco em performance, organização de componentes e uma interface moderna.
 
-Currently, two official plugins are available:
+O objetivo é apresentar os serviços da academia, planos, informações principais e uma experiência visual agradável para o usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Funcionalidades
 
-## React Compiler
+Página inicial com apresentação da academia
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Seção de planos e serviços
 
-## Expanding the ESLint configuration
+Informações sobre treinos e modalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Layout responsivo
+
+Interface moderna e intuitiva
+
+🛠️ Tecnologias utilizadas
+
+React
+
+Vite
+
+JavaScript / TypeScript (ajuste conforme o projeto)
+
+CSS / Styled Components / Tailwind (ajuste conforme uso)
+
+HTML5
+
+⚡ Por que Vite?
+
+O Vite foi escolhido por oferecer:
+
+Inicialização rápida do projeto
+
+Hot Reload eficiente
+
+Build otimizado para produção
+
+Melhor experiência de desenvolvimento
+
+🚀 Como executar o projeto
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+
+Acesse a pasta do projeto:
+
+cd nome-do-repositorio
+
+
+Instale as dependências:
+
+npm install
+# ou
+yarn
+
+
+Execute o projeto:
+
+npm run dev
+# ou
+yarn dev
+
+
+Acesse no navegador:
+
+http://localhost:5173
+
+📚 Aprendizados
+
+Neste projeto, estou praticando:
+
+Criação de aplicações com React
+
+Organização de componentes
+
+Uso do Vite no desenvolvimento front-end
+
+Estruturação de layout e responsividade
+
+Boas práticas de código
+
+🧠 Próximas melhorias
+
+Integração com formulário de contato
+
+Animações e microinterações
+
+Versão dark mode
+
+Integração com backend futuramente
+
+💜 Considerações finais
+
+Este projeto faz parte do meu portfólio e representa minha evolução no desenvolvimento front-end utilizando React e Vite.
