@@ -32,7 +32,7 @@ const Planos = () => {
         {/* Card 2 */}
         <div className="card">
           <h3>PLANO TRIMESTRAL</h3>
-          <h1>R$99,99</h1>
+          <h1>R$149,99</h1>
           <p>AULAS COLETIVAS <span><TiInputChecked /></span></p>
           <p>MUSCULAÇÃO <span><TiInputChecked /></span></p>
           <p>SUPORTE INTEGRAL <span><TiInputChecked /></span></p>
@@ -44,7 +44,7 @@ const Planos = () => {
         {/* Card 3 */}
         <div className="card">
           <h3>PLANO ANUAL</h3>
-          <h1>R$99,99</h1>
+          <h1>R$999,99</h1>
           <p>AULAS COLETIVAS <span><TiInputChecked /></span></p>
           <p>MUSCULAÇÃO <span><TiInputChecked /></span></p>
           <p>SUPORTE INTEGRAL <span><TiInputChecked /></span></p>

@@ -106,4 +106,8 @@ body {
   .PlanosLabel section {
     display: none;
   }
+  .planos p {
+   text-align: center;
+  }
+
 }
